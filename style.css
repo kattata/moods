@@ -1,0 +1,186 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f7e8e6;
+}
+
+.poland {
+    width: 50px;
+    height: 30px;
+    margin: 10px 80px;
+}
+
+header {
+    background-color:#d17869;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+   opacity: 0.5;
+}
+.nav_item {
+    color: #962720;
+    font-size: 15px;
+    margin-right: 20px;
+/*    font-weight: 700;*/
+}
+
+nav {
+    padding: 15px 0 0 50px;
+}
+
+video {
+    width: 100%;
+    border: 0;
+
+}
+
+.video_container {
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lilac {
+    background-image: url(clouds.jpg);
+    height: 150px;
+    background-size: cover;
+    background-position: top;
+    opacity: 0.8;
+
+}
+
+main h1 {
+    color: white;
+    padding-top: 44px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main_container {
+    padding: 40px 0;
+}
+
+.happy_container {
+    padding: 30px 190px;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.image {
+    width: 300px;
+    position: relative;
+    border: 7px white solid;
+}
+
+.picture {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d17869;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate (-50%, -50%);
+    border: 0;
+}
+
+.images_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 130px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #d17869;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+@media (max-width: 855px) {
+
+    .happy_container {
+        padding: 0 20px;
+    }
+
+    .image {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
