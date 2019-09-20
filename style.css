@@ -33,7 +33,7 @@ header {
    opacity: 0.5;
 }
 .nav_item {
-    color: #962720;
+    color: white;
     font-size: 15px;
     margin-right: 20px;
 /*    font-weight: 700;*/
@@ -164,7 +164,17 @@ h3 {
     .image {
         margin-bottom: 20px;
     }
-}
+
+    .poland {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+
 
 
 
